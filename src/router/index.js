@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import FileToDb from '../views/FileToDb.vue'
+import MySql from '../views/MySql.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'FileToDb',
-    component: FileToDb
+    name: 'MySql',
+    component: MySql
   },
   {
     path: '/about',
